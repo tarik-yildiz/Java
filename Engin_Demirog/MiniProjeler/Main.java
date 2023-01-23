@@ -4,12 +4,12 @@ public class Main {
     static Scanner scanner=new Scanner(System.in);
     public static void main(String[] args) {
 
-        System.out.println(SayiAsalMi());
-        System.out.println(MukemmelSayiKontrol());
-        System.out.println(ArkadasSayiKontrol());
+        System.out.println(sayiAsalMi());
+        System.out.println(mukemmelSayiKontrol());
+        System.out.println(arkadasSayiKontrol());
     }
 
-    static boolean SayiAsalMi(){
+    static boolean sayiAsalMi(){
         System.out.println("# Asal sayi kontrolu #");
         System.out.print("# Sayi giriniz: ");
         int num=scanner.nextInt();
@@ -28,7 +28,7 @@ public class Main {
 
     }
 
-    static boolean MukemmelSayiKontrol(){
+    static boolean mukemmelSayiKontrol(){
         System.out.println("# Mukemmel sayi kontrolu #");
         System.out.println("# Sayi giriniz: ");
         int num=scanner.nextInt();
@@ -46,7 +46,7 @@ public class Main {
         return false;
     }
 
-    static boolean ArkadasSayiKontrol(){
+    static boolean arkadasSayiKontrol(){
         System.out.println("# Arkadas sayi kontrolu #");
         System.out.print("# 1. Sayiyi giriniz: ");
         int num=scanner.nextInt();
